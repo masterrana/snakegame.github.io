@@ -59,7 +59,7 @@ for(var i=0;i<snake.length;i++){
     var X= snake[i].x;  
     var Y= snake[i].y;
   
-    drawSanke(X,Y);
+    drawSanke(X,Y); 
 }
 
 drawFood(food.x,food.y)
