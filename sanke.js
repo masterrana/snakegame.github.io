@@ -57,7 +57,7 @@ function draw(){
 ctx.clearRect(0,0,cvs.width,cvs.height)
 for(var i=0;i<snake.length;i++){
     var X= snake[i].x;  
-    var Y= snake[i].y;
+    var Y= snake[i].y; 
   
     drawSanke(X,Y); 
 }
