@@ -68,7 +68,7 @@ var snakeX= snake[0].x;
 var snakeY= snake[0].y;
 
 if(snakeX < 0 || snakeY < 0 || snakeX >=cvs.width/snakeW || snakeY >=cvs.height/snakeH){
-   // alert("game over")
+    alert("game over")
 }
 //snakeX++;
 if(dir=="right"){
